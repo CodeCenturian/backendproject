@@ -25,4 +25,16 @@ app.use(express.static("public")) // For Public Access: Any file stored in the "
 app.use(cookieParser())
 
 
+
+// routes import
+
+import userRouter from './routes/user.routes.js'
+
+// routes declaration
+app.use("/api/v1/users",userRouter) // now we can write all the routes and which router to activate
+
+// url for register will be like this - http://localhost:/api/v1/users/register
+
+
+
 export {app};

@@ -22,7 +22,7 @@ const asyncHandler = () => aysnc (func) => {} // we just removed the  outer brac
 //using promises for route error handeling
 
 // const asyncHandler = (requestHandeler)=>{
-//     (req,res,next) => {
+//     retrun (req,res,next) => {
 //         Promise.resolve(requestHandeler(req,res,next)).catch((err) => next(err))
 //     }
 
