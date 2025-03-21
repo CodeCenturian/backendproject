@@ -2,7 +2,9 @@ import mongoose from "mongoose";
 import { DB_NAME } from "./constraints.js"; // the name is imported from constraints file
 
 import dotenv from 'dotenv';
-dotenv.config();
+dotenv.config({
+    path : './.env'
+});
 
 import { app } from './app.js';
 
