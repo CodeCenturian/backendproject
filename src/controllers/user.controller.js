@@ -7,7 +7,7 @@ import { ApiResponse } from "../utils/apiresponse.js";
  const registerUser = asyncHandler(async (req, res)=>
     {
         // get user details from front end
-        // we data as we modeled it in user.model.js
+        // we take data as we modeled it in user.model.js
         // validation - not empty
         // check if user already exist : username,email
         // check for images, check for avatar
