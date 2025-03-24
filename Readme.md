@@ -505,10 +505,3 @@ npm run dev
    - **Process Management:** Tools like PM2 ensure your application restarts on failure.
    - *Without these:* Your application may suffer from downtime or slow performance under load.
 
----
-
-By following this canvas-style guide, you’ll not only build a backend that serves as the backbone of a high-quality SaaS product but also learn why each part is critical. The comments in the code provide context and rationale, helping you understand the “what” and “why” behind every step. Use this guide as your blueprint and reference as you scale your applications to professional levels.
-
-Happy Coding & Best of Luck in Building Amazing SaaS Products!
-
-write this text as it is in canvas with proper format so that i can copy from there ,
